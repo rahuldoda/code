@@ -1,0 +1,14 @@
+#define swap(a,b) t=a; a=b; b=t;
+#include <stdio.h>
+
+int main()
+{
+    int i,j,t;
+    i=5;
+    j=10;
+    t=0;
+    if(i&gt; j)
+    swap(i,j);
+    printf(&quot;%d %d %d &quot;,i,j,t)
+    return 0;
+ }
